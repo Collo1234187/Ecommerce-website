@@ -22,6 +22,7 @@ function App() {
   return (
     <div >
       <BrowserRouter>
+      
       <Navbar/>
       <Routes>
         <Route path='/' element={<Shop/>}/>

@@ -37,7 +37,7 @@ React.useEffect(() => {
 }, [location.pathname]);
 
   return (
-    <div v className="navbar">
+    <div className="navbar">
        <div className="navbar-logo">
   <img src={shopping_Bag} alt="Shopping Bag" className="shopping-bag" />
   <div className="navbar-logo-content">
